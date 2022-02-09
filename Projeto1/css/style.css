@@ -1,0 +1,66 @@
+html {
+    font-family: Helvetica;
+    background-color: black;
+}
+
+.container {
+    max-width: 1200px;
+    position: relative;
+    /*dar uma margem ao container em relação ao fundo preto*/
+    margin-left: auto;
+    margin-right: auto;
+    /*dar uma margem ao texto*/
+    padding: 20px 50px;
+    margin: 50px;
+    background-color: rgb(65, 172, 65);
+    border-radius: 10px;
+}
+
+.cabecalho {
+    text-align: center;
+}
+
+.titulo-principal {
+    font-size: 40px;
+}
+
+.paragrafo-principal {
+    font-style: italic;
+}
+
+.img-destaque {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.biografia-container {
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed black;
+    border-bottom: 1px dashed black;
+}
+
+.frase-container {
+    background-color: rgb(183, 243, 198);
+    padding: 30px;
+}
+
+.frase-container blockquote {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.frase-container p {
+    font-style: italic;
+}
+
+.premios-container {
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed black;
+    border-bottom: 1px dashed black;
+}
+
+.premios-container li {
+    height: 30px;
+}
